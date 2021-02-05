@@ -1,0 +1,47 @@
+footer {
+  color: $footerTxt;
+
+  ul {
+    list-style: none;
+  }
+  a {
+    color: $footerTxt;
+  }
+  h3 {
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
+
+  .container {
+    display: flex;
+    padding: 80px 0 80px;
+  }
+
+  .left-footer {
+    width: 40%;
+    padding-right: 10%;
+
+    img {
+      width: 75%;
+      margin-bottom: 30px;
+    }
+  }
+  
+  .right-footer {
+    display: flex;
+    width: 60%;
+    font-size: 18px;
+
+    ul {
+      margin-bottom: 20px;
+
+      li {
+        margin: 10px 0;
+      }
+    }
+
+    .column {
+      width: 50%;
+    }
+  }
+}
